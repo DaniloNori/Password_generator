@@ -6,7 +6,6 @@ Usage.
 
 from generate_password import generate_password
 
-#Generate a password with a length of 20 characters, including uppercase letters, lowercase letters, numbers, and symbols
 password = generate_password(length=20, uppercase=True, lowercase=True, numbers=True, symbols=True)
 print(password)
 
