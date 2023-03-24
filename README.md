@@ -10,6 +10,7 @@ from generate_password import generate_password
 password = generate_password(length=20, uppercase=True, lowercase=True, numbers=True, symbols=True)
 print(password)
 
+
 Arguments.
 The generate_password() function takes the following arguments:
 
